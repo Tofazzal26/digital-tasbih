@@ -21,13 +21,13 @@
         <h1 class="text-6xl font-extrabold bg-gradient-to-r my-20 text-center from-cyan-500 to-blue-500 bg-clip-text text-transparent">Digital Tasbih</h1>
 
 
-        <div>
-            <div class="grid grid-cols-3 gap-5 justify-center items-center mx-auto container">
+        <div class="px-4 lg:px-0">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 justify-center items-center mx-auto container">
                 <div class="card bg-white text-neutral-content">
                     <div class="card-body items-center text-center">
                       <h2 class="card-title text-gray-600">Subhan Allah</h2>
                       <p id="displayInputvalue" class="text-4xl my-4">0</p>
-                      <div class="card-actions justify-end">
+                      <div class="card-actions justify-center lg:justify-end">
                         <button id="incrementSubhanAllah" class="bg-[#22c55e] text-white py-2 px-6 rounded-md shadow-md">Increment</button>
                         <button id="decrementSubhanAllah" class="bg-[#ef4444] text-white py-2 px-6 rounded-md shadow-md">Decrement</button>
                       </div>
@@ -36,26 +36,26 @@
                   <div class="card bg-white text-neutral-content">
                     <div class="card-body items-center text-center">
                       <h2 class="card-title text-gray-600">Alhamdulilah</h2>
-                      <p class="text-4xl my-4">0</p>
-                      <div class="card-actions justify-end">
-                        <button class="bg-[#22c55e] text-white py-2 px-6 rounded-md shadow-md">Increment</button>
-                        <button class="bg-[#ef4444] text-white py-2 px-6 rounded-md shadow-md">Decrement</button>
+                      <p id="count2" class="text-4xl my-4">0</p>
+                      <div class="card-actions justify-center lg:justify-end">
+                        <button id="increment-2" class="bg-[#22c55e] text-white py-2 px-6 rounded-md shadow-md">Increment</button>
+                        <button id="decrement-2" class="bg-[#ef4444] text-white py-2 px-6 rounded-md shadow-md">Decrement</button>
                       </div>
                     </div>
                   </div>
-                  <div class="card  bg-white text-neutral-content">
+                  <div class="card bg-white text-neutral-content">
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title text-gray-600">Allahuakber</h2>
-                      <p class="text-4xl my-4">0</p>
-                      <div class="card-actions justify-end">
-                        <button class="bg-[#22c55e] text-white py-2 px-6 rounded-md shadow-md">Increment</button>
-                        <button class="bg-[#ef4444] text-white py-2 px-6 rounded-md shadow-md hover:shadow-lg">Decrement</button>
+                      <h2 class="card-title text-gray-600">Allahu Akbar</h2>
+                      <p id="count3" class="text-4xl my-4">0</p>
+                      <div class="card-actions justify-center lg:justify-end">
+                        <button id="increment-3" class="bg-[#22c55e] text-white py-2 px-6 rounded-md shadow-md">Increment</button>
+                        <button id="decrement-3" class="bg-[#ef4444] text-white py-2 px-6 rounded-md shadow-md">Decrement</button>
                       </div>
                     </div>
                   </div>
             </div>
            <div class="my-10 flex justify-center items-center">
-            <button class="select-none rounded-lg bg-yellow-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">Reset All Tasbhi</button>
+            <button id="clear-all" class="select-none rounded-lg bg-yellow-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">Reset All Tasbhi</button>
            </div>
         </div>
 
