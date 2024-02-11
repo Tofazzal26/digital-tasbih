@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google poppins font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style>
+        .poppins-font{
+            font-family: 'Poppins', sans-serif;
+        }
+        </style>
+    <title>Digital Tasbih</title>
+</head>
+<body class="poppins-font">
+    <section>
+        <h1 class="text-6xl font-extrabold bg-gradient-to-r my-20 text-center from-cyan-500 to-blue-500 bg-clip-text text-transparent">Digital Tasbih</h1>
+
+
+        <div>
+            <div class="grid grid-cols-3 gap-5 justify-center items-center mx-auto container">
+                <div class="card bg-white text-neutral-content">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-gray-600">Subhan Allah</h2>
+                      <p id="displayInputvalue" class="text-4xl my-4">0</p>
+                      <div class="card-actions justify-end">
+                        <button id="incrementSubhanAllah" class="bg-[#22c55e] text-white py-2 px-6 rounded-md shadow-md">Increment</button>
+                        <button id="decrementSubhanAllah" class="bg-[#ef4444] text-white py-2 px-6 rounded-md shadow-md">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-white text-neutral-content">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-gray-600">Alhamdulilah</h2>
+                      <p class="text-4xl my-4">0</p>
+                      <div class="card-actions justify-end">
+                        <button class="bg-[#22c55e] text-white py-2 px-6 rounded-md shadow-md">Increment</button>
+                        <button class="bg-[#ef4444] text-white py-2 px-6 rounded-md shadow-md">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card  bg-white text-neutral-content">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-gray-600">Allahuakber</h2>
+                      <p class="text-4xl my-4">0</p>
+                      <div class="card-actions justify-end">
+                        <button class="bg-[#22c55e] text-white py-2 px-6 rounded-md shadow-md">Increment</button>
+                        <button class="bg-[#ef4444] text-white py-2 px-6 rounded-md shadow-md">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+        
+    </section>
+
+</body>
+</html>
